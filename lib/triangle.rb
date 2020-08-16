@@ -1,7 +1,5 @@
 class Triangle
   
-  class Triangle
-  
   attr_accessor :base, :height, :hypotenuse, :equilateral, :isosceles, :scalene
   
   def initialize(base, height, hypotenuse)
@@ -24,5 +22,5 @@ class Triangle
   
     class TriangleError < StandardError
   end
-end   
+
 end
